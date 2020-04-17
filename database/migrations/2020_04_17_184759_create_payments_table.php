@@ -23,6 +23,18 @@ class CreatePaymentsTable extends Migration
             $table->string('cancelled');
             $table->timestamps();
             
+            $table->foreign('booking_id')
+            ->references('booking_id')
+            ->on('bookings')
+            ->onDelete('cascade')
+            ->onUpdate('cascade'); 
+            
+            $table->foreign('customer_id')
+            ->references('id')
+            ->on('users')
+            ->onDelete('cascade')
+            ->onUpdate('cascade'); 
+            
         });
     }
 

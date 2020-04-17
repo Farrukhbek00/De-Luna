@@ -3,4 +3,4 @@
 - Abduvohid Isroilov
 - Masrurbek Bekmirzayev
 - Akbarjon Olimov
-- Solikh 
+- Mirsolikh Abrolov 

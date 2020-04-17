@@ -2,23 +2,23 @@
 Find `ip_group_project.pdf` file in this folder, and refer to all the instructions given there. 
 You have to submit your project into this repository before 10.05.2019 (midnight).
 
-# Hotel Service Project written in Laravel
+# Hotel Booking Service 
 
 [Contributors](docs/CONTRIBUTING.md)
 
 
--[X] Model Migrated
--[X] Auth Done
--[ ] Front-end
--[ ] Routes
--[ ] Other
+- [X] Model Migrated
+- [X] Auth Done
+- [ ] Front-end
+- [ ] Routes
+- [ ] Other
 
-``-----------------------------------``
 
--- Used Technolgies --
+**Used Technolgies**
 
-1. MySql for Database
-2. Html,Css and JavaScript for Front 
+1. MySql is used for Database
+2. Html, Css and JavaScript are used for front 
+3. Backend is written in Laravel framework 
 
 *** Have any problem ? ***
 
