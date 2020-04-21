@@ -17,6 +17,7 @@ class CreateBookTypesTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string('type');
+            $table->integer('booking_id');
         });
     }
 

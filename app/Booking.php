@@ -10,7 +10,7 @@ class Booking extends Model
 
    public function customer()
    {
-   		return $this->hasOne('App\Customer');
+   		return $this->belongsTo('App\Customer');
    }
 
    public function payment()
@@ -21,6 +21,16 @@ class Booking extends Model
    public function room()
    {
    		return $this->hasOne('App\Room');
+   }
+
+   public function cancellation()
+   {
+   		return $this->hasOne('App\Cancellation');
+   }
+
+   public function booktype()
+   {
+         return $this->hasOne('App\BookType');
    }
 
 
