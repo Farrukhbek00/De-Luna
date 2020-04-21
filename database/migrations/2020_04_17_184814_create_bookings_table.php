@@ -19,10 +19,9 @@ class CreateBookingsTable extends Migration
             $table->dateTime('arrival');
             $table->dateTime('checkout');
             $table->integer('breakfast');
-            $table->integer('nights');
+            $table->integer('night');
             $table->string('comment');
             $table->dateTime('book_time');
-            
         });
     }
 
