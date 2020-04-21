@@ -14,12 +14,12 @@ class CreateRoomsTable extends Migration
     public function up()
     {
         Schema::create('rooms', function (Blueprint $table) {
-            $table->id('room_number');
+            $table->id();
+            $table->timestamps();
             $table->string('room_type');
             $table->integer('max_persons');
             $table->string('locked');
             $table->decimal('price_per_night');
-            $table->timestamps();
         });
     }
 

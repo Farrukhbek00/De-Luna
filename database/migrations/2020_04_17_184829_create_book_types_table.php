@@ -14,8 +14,9 @@ class CreateBookTypesTable extends Migration
     public function up()
     {
         Schema::create('book_types', function (Blueprint $table) {
-            $table->var_char('type');
+            $table->id();
             $table->timestamps();
+            $table->string('type');
         });
     }
 

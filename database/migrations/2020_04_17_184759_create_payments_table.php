@@ -14,28 +14,15 @@ class CreatePaymentsTable extends Migration
     public function up()
     {
         Schema::create('payments', function (Blueprint $table) {
-            $table->id('booking_id');
-            $table->bigInteger('customer_id');
+            $table->id();
+            $table->timestamps();
             $table->integer('amount');
             $table->string('paid');
             $table->dateTime('pay_time');
             $table->string('invoice');
             $table->string('cancelled');
-            $table->timestamps();
-            
-            $table->foreign('booking_id')
-            ->references('booking_id')
-            ->on('bookings')
-            ->onDelete('cascade')
-            ->onUpdate('cascade'); 
-            
-            $table->foreign('customer_id')
-            ->references('id')
-            ->on('users')
-            ->onDelete('cascade')
-            ->onUpdate('cascade'); 
-            
         });
+            
     }
 
     /**
@@ -47,4 +34,6 @@ class CreatePaymentsTable extends Migration
     {
         Schema::dropIfExists('payments');
     }
+
+
 }
