@@ -25,7 +25,6 @@ class CreateCustomersTable extends Migration
             $table->string('phone');
             $table->string('email');
             $table->dateTime('reg_time');
-            $table->integer('booking_id');
             
         });
     }

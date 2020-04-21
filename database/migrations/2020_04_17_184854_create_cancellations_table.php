@@ -22,7 +22,7 @@ class CreateCancellationsTable extends Migration
             $table->integer('night');
             $table->dateTime('book_time');
             $table->dateTime('cancel_time');
-            
+            $table->integer('booking_id');
         });
     }
 

@@ -9,6 +9,6 @@ class Customer extends Model
     //
     public function booking() 
     {
-    	return $this->belongsTo('App\Booking');
+    	return $this->hasMany('App\Booking');
     }
 }
