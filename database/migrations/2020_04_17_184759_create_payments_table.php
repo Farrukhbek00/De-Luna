@@ -21,6 +21,7 @@ class CreatePaymentsTable extends Migration
             $table->dateTime('pay_time');
             $table->string('invoice');
             $table->string('cancelled');
+            $table->string('booking_id');
         });
             
     }

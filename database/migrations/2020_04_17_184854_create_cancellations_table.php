@@ -19,7 +19,7 @@ class CreateCancellationsTable extends Migration
             $table->dateTime('arrival');
             $table->dateTime('checkout');
             $table->integer('breakfast');
-            $table->integer('nights');
+            $table->integer('night');
             $table->dateTime('book_time');
             $table->dateTime('cancel_time');
             
