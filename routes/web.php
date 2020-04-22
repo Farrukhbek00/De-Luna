@@ -13,9 +13,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', [
+    'uses' => 'HotelController@getHotel',
+    'as' => 'homeIndex'
+]);
+
+
+
+Route::group([
+	'prefix' => 'admin'
+
+], function() {
+
+	Route::get('/', [
+		'uses' => 'HotelController@getAdminHotel',
+		'as' => 'adminIndex'
+	]);
+
+
 });
+
+
 
 Auth::routes();
 
