@@ -16,8 +16,8 @@ class CreateHotelsTable extends Migration
         Schema::create('hotels', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('description');
             $table->string('name');
+            $table->text('description');
             $table->string('address');
         });
     }
