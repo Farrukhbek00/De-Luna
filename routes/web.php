@@ -25,17 +25,28 @@ Route::group([
 
 ], function() {
 
-	Route::get('/', [
-		'uses' => 'HotelController@getAdminHotel',
-		'as' => 'adminIndex'
+	// Route::get('/', [
+	// 	'uses' => 'HotelController@getAdminHotel',
+	// 	'as' => 'adminIndex'
+	// ]);
+
+	Route::get('/login', [
+		'uses' => 'Auth\AdminLoginController@showLoginForm',
+		'as' => 'adminLogin'
 	]);
 
+	Route::post('/login', [
+		'uses' => 'Auth\AdminLoginController@login',
+		'as' => 'adminLoginSubmit'
+	]);
 
+	Route::get('/', [
+		'uses' => 'AdminController@index',
+		'as' => 'adminDashboard'
+	]);
 });
 
 
-
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
 
