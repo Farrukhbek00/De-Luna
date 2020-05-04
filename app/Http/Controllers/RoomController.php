@@ -4,13 +4,17 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Room;
 
 class RoomController extends Controller
 {
-    //get
-    public function index()
-    {
-        return view('admin.index');
-    }
+    public function getRoom() {
+
+		return view('home.rooms', [
+
+			'rooms' => Room::first()
+
+		]);
+	}
 
 }

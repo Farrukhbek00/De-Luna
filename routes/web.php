@@ -15,8 +15,21 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [
     'uses' => 'HotelController@getHotel',
-    'as' => 'homeIndex'
+    'as' => 'Index'
 ]);
+
+Route::get('/rooms', [
+    'uses' => 'RoomController@getRoom',
+    'as' => 'Rooms'
+]);
+
+Route::get('/about', function () {
+    return view('home.about');
+});
+
+Route::get('/contact', function () {
+    return view('home.contact');
+});
 
 
 
