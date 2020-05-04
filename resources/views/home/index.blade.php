@@ -62,6 +62,7 @@
                       <li><a href="/rooms">Rooms</a></li>
                       <li><a href="/about">About</a></li>
                       <li><a href="/contact">Contact</a></li>
+                      <li><a href="/login">Login/Register</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -307,7 +308,7 @@
           <div class="col-md-4">
             <h3 class="footer-heading mb-4 text-white">About</h3>
             <p>De Luna Hotel Singapore is an award-winning heritage boutique hotel situated at the heart of Tiong Bahru estate.</p>
-            <p><a href="#" class="btn btn-primary pill text-white px-4">Read More</a></p>
+            <p><a href="/about" class="btn btn-primary pill text-white px-4">Read More</a></p>
           </div>
           <div class="col-md-6">
 
@@ -327,7 +328,7 @@
 
           
           <div class="col-md-2">
-            <div class="col-md-12"><h3 class="footer-heading mb-4 text-white">Social Icons</h3></div>
+            <div class="col-md-12"><h3 class="footer-heading mb-4 text-white">Stay in touch</h3></div>
               <div class="col-md-12">
                 <p>
                   <a href="#" class="pb-2 pr-2 pl-0"><span class="icon-facebook"></span></a>
