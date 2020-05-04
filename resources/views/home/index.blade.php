@@ -110,8 +110,239 @@
 
     </div>
 
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <h2 class="mb-5">Our Rooms</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="hotel-room text-center">
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/room_1.jpg" alt="Image" class="img-fluid"></a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0"><a href="#">Standard Room</a></h3>
+                <strong class="price">$350.00 / per night</strong>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="hotel-room text-center">
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/room_2.jpg" alt="Image" class="img-fluid"></a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0"><a href="#">Family Room</a></h3>
+                <strong class="price">$400.00 / per night</strong>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="hotel-room text-center">
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/room_3.jpg" alt="Image" class="img-fluid"></a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0"><a href="#">Single Room</a></h3>
+                <strong class="price">$255.00 / per night</strong>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="hotel-room text-center">
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/room_4.jpg" alt="Image" class="img-fluid"></a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0"><a href="#">Deluxe Room</a></h3>
+                <strong class="price">$150.00 / per night</strong>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="hotel-room text-center">
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/room_5.jpg" alt="Image" class="img-fluid"></a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0"><a href="#">Luxury Room</a></h3>
+                <strong class="price">$200.00 / per night</strong>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="hotel-room text-center">
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/room_6.jpg" alt="Image" class="img-fluid"></a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0"><a href="#">Single Room</a></h3>
+                <strong class="price">$155.00 / per night</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="site-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-5 mb-md-0">
+              <div class="img-border">
+                  <img src="images/about_1.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
 
+              <img src="images/about_2.jpg" alt="Image" class="img-fluid image-absolute">
+          </div>
+          <div class="col-md-5 ml-auto">
+            <div class="section-heading text-left">
+              <h2 class="mb-5">About Us</h2>
+            </div>
+            <p class="mb-4">De Luna Hotel Singapore is an award-winning heritage boutique hotel situated at the heart of Tiong Bahru estate, known to be Singapore’s oldest housing estate and the most charming neighborhood.Officially opened its door in 2007,De Luna Hotel Singapore  was the first and only hotel to be converted from conserved art deco apartment blocks that were built by Singapore Housing Development Board (HDB) in the 1950s and 1960s. The hotel comprises of 2 conserved art deco apartment blocks, known as Lotus Block & Orchid Block and are connected by the Link Bridge.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <h2 class="mb-5">Our Gallery</h2>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-md-6 col-lg-3">
+            <a href="images/hotel_1.jpg" class="image-popup img-opacity"><img src="images/hotel_1.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="images/hotel_2.jpg" class="image-popup img-opacity"><img src="images/hotel_2.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="images/hotel_3.jpg" class="image-popup img-opacity"><img src="images/hotel_3.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="images/hotel_4.jpg" class="image-popup img-opacity"><img src="images/hotel_4.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <a href="images/hotel_5.jpg" class="image-popup img-opacity"><img src="images/hotel_5.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="images/hotel_6.jpg" class="image-popup img-opacity"><img src="images/hotel_6.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="images/hotel_7.jpg" class="image-popup img-opacity"><img src="images/hotel_7.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <a href="images/hotel_8.jpg" class="image-popup img-opacity"><img src="images/hotel_8.jpg" alt="Image" class="img-fluid"></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section block-14 bg-light">
+
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+            <h2>What People Say</h2>
+          </div>
+        </div>
+
+        <div class="nonloop-block-14 owl-carousel">
+          
+          <div class="p-4">
+            <div class="d-flex block-testimony">
+              <div class="person mr-3">
+                <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded">
+              </div>
+              <div>
+                <h2 class="h5">Jhon Wick</h2>
+                <blockquote>&ldquo;This note serves to acknowledge, compliment and thank you and your team for the translation work you have been doing for the AGA project so far!&rdquo;</blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="d-flex block-testimony">
+              <div class="person mr-3">
+                <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded">
+              </div>
+              <div>
+                <h2 class="h5">Bruno Mars</h2>
+                <blockquote>&ldquo;You’ve impressed me over and over with your knowledge, professionalism, courtesy and responsiveness!&rdquo;</blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="d-flex block-testimony">
+              <div class="person mr-3">
+                <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded">
+              </div>
+              <div>
+                <h2 class="h5">Emily Clarke</h2>
+                <blockquote>&ldquo;De Luna is a truly outstanding company and we can all agree that you have really made our work here a success!&rdquo;</blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="d-flex block-testimony">
+              <div class="person mr-3">
+                <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded">
+              </div>
+              <div>
+                <h2 class="h5">Peter Pan</h2>
+                <blockquote>&ldquo;Customer service is excellent, willingness to support our demands. Quality is very good and that is very, very important!&rdquo;</blockquote>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        
+
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="footer-heading mb-4 text-white">About</h3>
+            <p>De Luna Hotel Singapore is an award-winning heritage boutique hotel situated at the heart of Tiong Bahru estate.</p>
+            <p><a href="#" class="btn btn-primary pill text-white px-4">Read More</a></p>
+          </div>
+          <div class="col-md-6">
+
+            <div class="col-lg-8">
+                <h3 class="h5 text-white mb-3">Contact Info</h3>
+                <p class="mb-0 font-weight-bold">Address</p>
+                <p class="mb-4">203 BroadWay St. Mountain View, San Francisco, California, USA</p>
+
+                <p class="mb-0 font-weight-bold">Phone</p>
+                <p class="mb-4">+1 232 3235 324</p>
+
+                <p class="mb-0 font-weight-bold">Email Address</p>
+                <p class="mb-0">administrator@deluna.com</p>
+            </div>
+
+          </div>
+
+          
+          <div class="col-md-2">
+            <div class="col-md-12"><h3 class="footer-heading mb-4 text-white">Social Icons</h3></div>
+              <div class="col-md-12">
+                <p>
+                  <a href="#" class="pb-2 pr-2 pl-0"><span class="icon-facebook"></span></a>
+                  <a href="#" class="p-2"><span class="icon-twitter"></span></a>
+                  <a href="#" class="p-2"><span class="icon-instagram"></span></a>
+                  <a href="#" class="p-2"><span class="icon-vimeo"></span></a>
+
+                </p>
+              </div>
+          </div>
+        </div>
+          
+        </div> --}}
+      </div>
+    </footer>
   </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
