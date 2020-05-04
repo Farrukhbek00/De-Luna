@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>De Luna</title>
+    <title>Suite &mdash; Colorlib Website Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -56,10 +56,10 @@
                     
                     <div class="d-inline-block d-lg-none  ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a></div>
                     <ul class="site-menu js-clone-nav d-none d-lg-block">
-                      <li class="active">
+                      <li>
                         <a href="/">Home</a>
                       </li>
-                      <li><a href="/rooms">Rooms</a></li>
+                      <li class="active"><a href="/rooms">Rooms</a></li>
                       <li><a href="/about">About</a></li>
                       <li><a href="/contact">Contact</a></li>
                     </ul>
@@ -71,45 +71,20 @@
         </div>
       </div>
     </div>
+  
     
-    <div class="slide-one-item home-slider owl-carousel">
-      
-      <div class="site-blocks-cover overlay" style="background-image: url(images/background_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="site-blocks-cover overlay" style="background-image: url(images/background_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
-              
-              <h1 class="mb-2">Welcome To De Luna</h1>
-              <h2 class="caption">Hotel &amp; Resort</h2>
+              <span class="caption mb-3">Luxurious Rooms</span>
+              <h1 class="mb-4">Hotel Rooms</h1>
             </div>
           </div>
         </div>
       </div>  
 
-      <div class="site-blocks-cover overlay" style="background-image: url(images/background_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-md-7 text-center" data-aos="fade">
-              <h1 class="mb-2">Unique Experience</h1>
-              <h2 class="caption">Enjoy With Us</h2>
-            </div>
-          </div>
-        </div>
-      </div> 
-
-      <div class="site-blocks-cover overlay" style="background-image: url(images/background_3.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-md-7 text-center" data-aos="fade">
-              <h1 class="mb-2">Discover the World</h1>
-              <h2 class="caption">More Savings, More Perks</h2>
-            </div>
-          </div>
-        </div>
-      </div> 
-
-    </div>
-
+    
     <div class="site-section bg-light">
       <div class="container">
         <div class="row">
@@ -174,131 +149,28 @@
             </div>
           </div>
         </div>
+
+        <div class="row mt-5">
+          <div class="col-md-12 text-center">
+            <div class="site-block-27">
+              <ul>
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     
-    <div class="site-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 mb-5 mb-md-0">
-              <div class="img-border">
-                  <img src="images/about_1.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
 
-              <img src="images/about_2.jpg" alt="Image" class="img-fluid image-absolute">
-          </div>
-          <div class="col-md-5 ml-auto">
-            <div class="section-heading text-left">
-              <h2 class="mb-5">About Us</h2>
-            </div>
-            <p class="mb-4">De Luna Hotel Singapore is an award-winning heritage boutique hotel situated at the heart of Tiong Bahru estate, known to be Singapore’s oldest housing estate and the most charming neighborhood.Officially opened its door in 2007,De Luna Hotel Singapore  was the first and only hotel to be converted from conserved art deco apartment blocks that were built by Singapore Housing Development Board (HDB) in the 1950s and 1960s. The hotel comprises of 2 conserved art deco apartment blocks, known as Lotus Block & Orchid Block and are connected by the Link Bridge.</p>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="site-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
-            <h2 class="mb-5">Our Gallery</h2>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-md-6 col-lg-3">
-            <a href="images/hotel_1.jpg" class="image-popup img-opacity"><img src="images/hotel_1.jpg" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a href="images/hotel_2.jpg" class="image-popup img-opacity"><img src="images/hotel_2.jpg" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a href="images/hotel_3.jpg" class="image-popup img-opacity"><img src="images/hotel_3.jpg" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a href="images/hotel_4.jpg" class="image-popup img-opacity"><img src="images/hotel_4.jpg" alt="Image" class="img-fluid"></a>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <a href="images/hotel_5.jpg" class="image-popup img-opacity"><img src="images/hotel_5.jpg" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a href="images/hotel_6.jpg" class="image-popup img-opacity"><img src="images/hotel_6.jpg" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a href="images/hotel_7.jpg" class="image-popup img-opacity"><img src="images/hotel_7.jpg" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a href="images/hotel_8.jpg" class="image-popup img-opacity"><img src="images/hotel_8.jpg" alt="Image" class="img-fluid"></a>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section block-14 bg-light">
-
-      <div class="container">
-        
-        <div class="row">
-          <div class="col-md-6 mx-auto text-center mb-5 section-heading">
-            <h2>What People Say</h2>
-          </div>
-        </div>
-
-        <div class="nonloop-block-14 owl-carousel">
-          
-          <div class="p-4">
-            <div class="d-flex block-testimony">
-              <div class="person mr-3">
-                <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded">
-              </div>
-              <div>
-                <h2 class="h5">Jhon Wick</h2>
-                <blockquote>&ldquo;This note serves to acknowledge, compliment and thank you and your team for the translation work you have been doing for the AGA project so far!&rdquo;</blockquote>
-              </div>
-            </div>
-          </div>
-          <div class="p-4">
-            <div class="d-flex block-testimony">
-              <div class="person mr-3">
-                <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded">
-              </div>
-              <div>
-                <h2 class="h5">Bruno Mars</h2>
-                <blockquote>&ldquo;You’ve impressed me over and over with your knowledge, professionalism, courtesy and responsiveness!&rdquo;</blockquote>
-              </div>
-            </div>
-          </div>
-          <div class="p-4">
-            <div class="d-flex block-testimony">
-              <div class="person mr-3">
-                <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded">
-              </div>
-              <div>
-                <h2 class="h5">Emily Clarke</h2>
-                <blockquote>&ldquo;De Luna is a truly outstanding company and we can all agree that you have really made our work here a success!&rdquo;</blockquote>
-              </div>
-            </div>
-          </div>
-          <div class="p-4">
-            <div class="d-flex block-testimony">
-              <div class="person mr-3">
-                <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded">
-              </div>
-              <div>
-                <h2 class="h5">Peter Pan</h2>
-                <blockquote>&ldquo;Customer service is excellent, willingness to support our demands. Quality is very good and that is very, very important!&rdquo;</blockquote>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-      
-    </div>
-
+    
     <footer class="site-footer">
       <div class="container">
         
