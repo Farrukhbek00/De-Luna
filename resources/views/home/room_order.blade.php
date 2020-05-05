@@ -43,10 +43,6 @@
                 <div class="col-md-4 col-md-pull-7">
                     <div class="booking-form">
                         <form>
-                            <div class="form-group">
-                                <span class="form-label">Your Destination</span>
-                                <input class="form-control" type="text" placeholder="Enter a destination or hotel name">
-                            </div>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
