@@ -12,7 +12,7 @@ class RoomController extends Controller
 
 		return view('home.rooms', [
 
-			'rooms' => Room::first()
+			'rooms' => Room::all()
 
 		]);
 	}

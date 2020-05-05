@@ -26,25 +26,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca1db0a4-d768-41c6-a9ac-5c94235e3785" name="Default Changelist" comment="my sample html page">
-      <change afterPath="$PROJECT_DIR$/resources/views/islam/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/about_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/about_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/hero_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/hero_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/hero_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/img_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/img_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/img_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/img_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/img_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/img_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/img_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/person_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/person_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/person_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/photoes_from_google/person_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/img/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/room_order.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ip-group-project-java-spring-boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ip-group-project-java-spring-boot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoomController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoomController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Room.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Room.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/rooms.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/rooms.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +159,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/templates/controller" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -195,6 +190,8 @@
       <updated>1588427423979</updated>
       <workItem from="1588427427919" duration="12000" />
       <workItem from="1588490885301" duration="2067000" />
+      <workItem from="1588606562275" duration="5273000" />
+      <workItem from="1588666065738" duration="4941000" />
     </task>
     <servers />
   </component>
@@ -226,5 +223,13 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1588424655338" />
+    <state x="691" y="451" width="528" height="203" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588666231225">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="691" y="451" width="528" height="203" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1588666231225" />
+    <state x="583" y="240" width="753" height="624" key="find.popup" timestamp="1588670548402">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="583" y="240" width="753" height="624" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1588670548402" />
   </component>
 </project>
