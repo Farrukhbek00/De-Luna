@@ -62,4 +62,7 @@ Route::group([
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', function(){
+    return view('home.room_order');
+})->name('room_order');
 
