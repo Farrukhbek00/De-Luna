@@ -16,14 +16,5 @@ class HotelController extends Controller
 		]);
 	}
 
-	public function getAdminHotel() {
-
-		return view('admin.index', [
-
-			'hotel' => Hotel::first()
-
-		]);
-	}
-
 
 }

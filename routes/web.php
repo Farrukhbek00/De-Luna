@@ -35,6 +35,16 @@ Route::get('/contact', function () {
     return view('home.contact');
 });
 
+Route::get('/booking', [
+	'uses' => 'BookingController@getBooking',
+    'as' => 'BookingPage'
+]);
+
+Route::post('/booking', [
+		'uses' => 'BookingController@bookingRoom',
+		'as' => 'bookingRoom'
+]);
+
 
 
 Route::group([
@@ -66,7 +76,5 @@ Route::group([
 
 Auth::routes();
 // Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/booking', function(){
-    return view('home.room_order');
-})->name('room_order');
+
 
