@@ -22,7 +22,7 @@ class CreateBookingsTable extends Migration
             $table->integer('night');
             $table->string('comment');
             $table->dateTime('book_time');
-            $table->integer('customer_id');
+            $table->integer('user_id');
         });
     }
 

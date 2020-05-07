@@ -6,11 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Booking extends Model
 {
-    //
+    protected $fillable = ['arrival', 'checkout', 'breakfast', 'night', 'comment', 'book_time'];
 
-   public function customer()
+   public function user()
    {
-   		return $this->belongsTo('App\Customer');
+   		return $this->belongsTo('App\User');
    }
 
    public function payment()

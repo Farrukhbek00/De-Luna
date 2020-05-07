@@ -43,35 +43,42 @@
                                     <div class="form-group">
                                         <span class="form-label">Arrival Time</span>
 
-                                        <input class="form-control" type="date" required>
+                                        <input form="postForm" name="arrival" class="form-control" type="date" required>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
 
                                         <span class="form-label">Booking Time</span>
-                                        <input class="form-control" type="date" required>
+                                        <input form="postForm" name="book_time" class="form-control" type="date" required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+
+                                        <span class="form-label">Checkout</span>
+                                        <input form="postForm" name="checkout" class="form-control" type="date" required>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
 
                                         <span class="form-label">Nights</span>
-                                        <input class="form-control" type="number" required>
+                                        <input form="postForm" name="night" class="form-control" type="number" required>
                                     </div>
 
                                 </div>
-                                <div class="col-sm-6">
+                                {{-- <div class="col-sm-6">
                                     <div class="form-group">
 
                                         <span class="form-label">Persons</span>
                                         <input class="form-control" type="number" required>
                                     </div>
 
-                                </div>
+                                </div> --}}
 
                             </div>
-                            <div class="row">
+                            {{-- <div class="row">
                                 <div class="col-sm-4">
                                     <div class="form-group">
                                         <span class="form-label">Rooms</span>
@@ -79,18 +86,21 @@
                                         <span class="select-arrow"></span>
                                     </div>
                                 </div>
-
-
-                            </div>
+                            </div> --}}
                             <div class="form-group">
                                 <span class="form-label">Would you like to include breakfast?</span>
-                                <input class="form-control" type="checkbox" checked>
+                                <input form="postForm" name="breakfast" class="form-control" type="checkbox" checked>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Enter your comment">
+                                <input form="postForm" name="comment" class="form-control" type="text" placeholder="Enter your comment">
                             </div>
                             <div class="form-btn">
-                                <button class="submit-btn">Check availability</button>
+                                {{-- <button class="submit-btn">Book Now</button> --}}
+                                <form id="postForm" action="{{ route('bookingRoom') }}" method="post">
+                                    @csrf
+
+                                    <input type="submit" value="Submit">
+                                </form>
                             </div>
                         </form>
                     </div>
