@@ -9,8 +9,8 @@ You have to submit your project into this repository before 10.05.2019 (midnight
 
 - [X] Model Migrated
 - [X] Auth Done
-- [ ] Front-end
-- [ ] Routes
+- [X] Front-end
+- [X] Routes
 - [ ] Other
 
 
