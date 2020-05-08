@@ -37,34 +37,35 @@
                 </div>
                 <div class="col-md-4 col-md-pull-7">
                     <div class="booking-form">
-                        <form>
+                        <form action="{{ route('bookingRoom') }}" method="post">
+                            @csrf
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <span class="form-label">Arrival Time</span>
 
-                                        <input form="postForm" name="arrival" class="form-control" type="date" required>
+                                        <input name="arrival" class="form-control" type="date" required>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
 
                                         <span class="form-label">Booking Time</span>
-                                        <input form="postForm" name="book_time" class="form-control" type="date" required>
+                                        <input name="book_time" class="form-control" type="date" required>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
 
                                         <span class="form-label">Checkout</span>
-                                        <input form="postForm" name="checkout" class="form-control" type="date" required>
+                                        <input name="checkout" class="form-control" type="date" required>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
 
                                         <span class="form-label">Nights</span>
-                                        <input form="postForm" name="night" class="form-control" type="number" required>
+                                        <input  name="night" class="form-control" type="number" required>
                                     </div>
 
                                 </div>
@@ -89,18 +90,13 @@
                             </div> --}}
                             <div class="form-group">
                                 <span class="form-label">Would you like to include breakfast?</span>
-                                <input form="postForm" name="breakfast" class="form-control" type="checkbox" checked>
+                                <input name="breakfast" class="form-control" type="number" checked>
                             </div>
                             <div class="form-group">
-                                <input form="postForm" name="comment" class="form-control" type="text" placeholder="Enter your comment">
+                                <input name="comment" class="form-control" type="text" placeholder="Enter your comment">
                             </div>
                             <div class="form-btn">
-                                {{-- <button class="submit-btn">Book Now</button> --}}
-                                <form id="postForm" action="{{ route('bookingRoom') }}" method="post">
-                                    @csrf
-
-                                    <input type="submit" value="Submit">
-                                </form>
+                                <button type="submit" class="submit-btn">Book Now</button>
                             </div>
                         </form>
                     </div>

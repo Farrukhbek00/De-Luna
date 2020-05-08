@@ -36,7 +36,7 @@ Route::get('/contact', function () {
 });
 
 Route::get('/booking', [
-	'uses' => 'BookingController@getBooking',
+	'uses' => 'BookingController@getBookingForm',
     'as' => 'BookingPage'
 ]);
 
@@ -52,10 +52,10 @@ Route::group([
 
 ], function() {
 
-	// Route::get('/', [
-	// 	'uses' => 'HotelController@getAdminHotel',
-	// 	'as' => 'adminIndex'
-	// ]);
+	Route::get('/bookings', [
+		'uses' => 'BookingController@getBooking',
+		'as' => 'adminIndex'
+	]);
 
 	Route::get('/login', [
 		'uses' => 'Auth\AdminLoginController@showLoginForm',

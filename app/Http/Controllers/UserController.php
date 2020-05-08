@@ -6,11 +6,11 @@ use Illuminate\Http\Request;
 
 class CustomerController extends Controller
 {
-    //get
-    public function index()
-    {
-        return view('admin.index');
-    }
+    // //get
+    // public function index()
+    // {
+    //     return view('admin.index');
+    // }
 
     
 }
