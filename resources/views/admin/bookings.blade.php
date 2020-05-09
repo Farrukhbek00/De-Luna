@@ -24,9 +24,9 @@
                         @foreach($bookings as $booking)
                         <tr>
                           <th scope="row"></th>
-                          <td>{{ $booking->arrival }}</td>
-                          <td>{{ $booking->book_time }}</td>
-                          <td>{{ $booking->checkout }}</td>
+                          <td>{{ date('d-m-Y', strtotime($booking->arrival)) }}</td>
+                          <td>{{ date('d-m-Y', strtotime($booking->book_time)) }}</td>
+                          <td>{{ date('d-m-Y', strtotime($booking->checkout)) }}</td>
                           <td>{{ $booking->breakfast }}</td>
                           <td>{{ $booking->night }}</td>
                           <td>{{ $booking->comment }}</td>
