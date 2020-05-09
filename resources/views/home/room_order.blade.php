@@ -15,6 +15,15 @@
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script>
+        function failed() {
+        alert("You did not logged in. Sign in first!");
+        window.location='{{ url("/login") }}';
+        }
+        function success() {
+        alert("Your booked successfully! Check your email!");
+        }
+    </script>
 
 
 </head>
@@ -90,13 +99,18 @@
                             </div> --}}
                             <div class="form-group">
                                 <span class="form-label">Would you like to include breakfast?</span>
-                                <input name="breakfast" class="form-control" type="number" checked>
+                                <input name="breakfast" class="form-control" type="number" checked required>
                             </div>
                             <div class="form-group">
-                                <input name="comment" class="form-control" type="text" placeholder="Enter your comment">
+                                <input name="comment" class="form-control" type="text" placeholder="Enter your comment" required>
                             </div>
                             <div class="form-btn">
-                                <button type="submit" class="submit-btn">Book Now</button>
+                                @auth
+                                    <button onclick="success()" class="submit-btn">Book</button>
+                                @endauth
+                                @guest
+                                    <button onclick="failed()" class="submit-btn">Book</button>
+                                @endguest                               
                             </div>
                         </form>
                     </div>

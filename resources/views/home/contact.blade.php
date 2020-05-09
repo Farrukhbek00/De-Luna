@@ -50,8 +50,7 @@
 
           <div class="row form-group">
             <div class="col-md-12">
-              {{-- <input type="submit" value="Send Message" class="btn btn-primary pill px-4 py-2"> --}}
-              <button type="submit" class="btn btn-primary pill px-4 py-2">Send Message</button>
+              <button onclick="success()" type="submit" class="btn btn-primary pill px-4 py-2">Send Message</button>
             </div>
           </div>
 
