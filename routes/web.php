@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Customer Pages
+
 Route::get('/', function () {
     return redirect('/home');
 });
@@ -31,9 +33,6 @@ Route::get('/about', function () {
     return view('home.about');
 });
 
-Route::get('/contact', function () {
-    return view('home.contact');
-});
 
 Route::get('/booking', [
 	'uses' => 'BookingController@getBookingForm',
@@ -46,9 +45,23 @@ Route::post('/booking', [
 ]);
 
 
+Route::get('/contact', [
+	'uses' => 'ContactController@getContactForm',
+    'as' => 'ContactPage'
+]);
+
+Route::post('/contact', [
+		'uses' => 'ContactController@submitFeedback',
+		'as' => 'submitFeedback'
+]);
+
+
+
+// Admin Pages
 
 Route::group([
-	'prefix' => 'admin'
+	'prefix' => 'admin',
+	'middleware' => ['auth:admin', 'verified']
 
 ], function() {
 
@@ -57,21 +70,28 @@ Route::group([
 		'as' => 'adminIndex'
 	]);
 
-	Route::get('/login', [
-		'uses' => 'Auth\AdminLoginController@showLoginForm',
-		'as' => 'adminLogin'
+	Route::get('/feedbacks', [
+		'uses' => 'ContactController@getContact',
+		'as' => 'adminFeedbacks'
 	]);
 
-	Route::post('/login', [
-		'uses' => 'Auth\AdminLoginController@login',
-		'as' => 'adminLoginSubmit'
-	]);
 
 	Route::get('/', [
 		'uses' => 'AdminController@index',
 		'as' => 'adminDashboard'
 	]);
 });
+
+
+Route::get('/admin/login', [
+	'uses' => 'Auth\AdminLoginController@showLoginForm',
+	'as' => 'adminLogin'
+]);
+
+Route::post('/admin/login', [
+	'uses' => 'Auth\AdminLoginController@login',
+	'as' => 'adminLoginSubmit'
+]);
 
 
 Auth::routes();
