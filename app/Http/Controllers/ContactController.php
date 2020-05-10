@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Contact;
+use App\Mail\ConfirmationMail;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Gate;
 use App\User;
 
@@ -28,7 +30,10 @@ class ContactController extends Controller
 
     	$contact->save();
 
-    	return redirect()->route('Index');
+        Mail::to($contact->email)->send(new ConfirmationMail());
+
+        return redirect()->route('Index');
+    
 
     	// return redirect()->route('Index')->with([
     	// 	// 'info'=>'Your booked a room successfully! We will wait you in '. $req->input('arrival')

@@ -39,6 +39,11 @@
 
   </div>
 
+  <script>
+        function success() {
+        alert("We have sent message to your email");
+        }
+  </script>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
