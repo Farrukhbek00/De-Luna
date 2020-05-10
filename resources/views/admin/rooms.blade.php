@@ -3,9 +3,10 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Bookings</div>
+              <h1>To be implemented</h1>
+                <div class="card-header">Rooms</div>
                 
                 {{-- Taken from https://getbootstrap.com/docs/4.4/content/tables/ --}}
                 <table class="table table-bordered table-dark">
@@ -20,19 +21,19 @@
                           <th scope="col">Comments</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    {{-- <tbody>
                         @foreach($bookings as $booking)
                         <tr>
                           <th scope="row"></th>
-                          <td>{{ date('d-m-Y', strtotime($booking->arrival)) }}</td>
-                          <td>{{ date('d-m-Y', strtotime($booking->book_time)) }}</td>
-                          <td>{{ date('d-m-Y', strtotime($booking->checkout)) }}</td>
-                          <td>{{ $booking->breakfast }}</td>
-                          <td>{{ $booking->night }}</td>
-                          <td>{{ $booking->comment }}</td>
+                          <td>{{  }}</td>
+                          <td>{{  }}</td>
+                          <td>{{  }}</td>
+                          <td>{{  }}</td>
+                          <td>{{  }}</td>
+                          <td>{{  }}</td>
                         </tr>
                         @endforeach
-                    </tbody>
+                    </tbody> --}}
                 </table>
             </div>
         </div>
