@@ -4,28 +4,11 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ConfirmationMail;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
-// Customer Pages
 
 Route::get('/', function () {
     return redirect('/home');
 });
 
-// Route::get('/email', function () {
-// 	Mail::to('mail@mail.com')->send(new ConfirmationMail());
-
-//     return new ConfirmationMail();
-// });
 
 Route::get('/home', [
     'uses' => 'HotelController@getHotel',
@@ -65,13 +48,18 @@ Route::post('/contact', [
 
 
 
-// Admin Pages
 
+// Admin Pages
 Route::group([
 	'prefix' => 'admin',
 	'middleware' => ['auth:admin', 'verified']
 
 ], function() {
+
+	Route::get('/users', [
+		'uses' => 'UserController@getUsers',
+		'as' => 'adminUsers'
+	]);
 
 	Route::get('/bookings', [
 		'uses' => 'BookingController@getBooking',
@@ -101,8 +89,7 @@ Route::post('/admin/login', [
 	'as' => 'adminLoginSubmit'
 ]);
 
-
 Auth::routes();
-// Route::get('/home', 'HomeController@index')->name('home');
+
 
 

@@ -3,14 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\User;
 
-class CustomerController extends Controller
+class UserController extends Controller
 {
-    // //get
-    // public function index()
-    // {
-    //     return view('admin.index');
-    // }
-
-    
+    //get
+    public function getUsers()
+    {
+        return view('admin.users', [
+            'users' => User::orderBy('id', 'desc')->get()
+        ]);
+    }  
 }
