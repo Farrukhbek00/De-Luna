@@ -12,6 +12,11 @@ class AdminTableSeeder extends Seeder
      */
     public function run()
     {
-        
+        $admin = new Admin([
+		    'name' => 'admin',
+		    'email' => 'admin@gmail.com',
+		    'password' => Hash::make('password')
+		]);
+		$admin->save();
     }
 }
